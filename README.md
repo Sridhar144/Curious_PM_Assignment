@@ -1,26 +1,37 @@
+# 💬 Chatbot Template using GPT-3.5
 
-# 💬 Chatbot template
+This is a simple Streamlit app showcasing how to build a chatbot using OpenAI's GPT-3.5. The app is designed for ease of use, demonstrating the integration of AI-based natural language processing into a web application.
 
-A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
+---
 
-<!-- [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-template.streamlit.app/) -->
+## 🌐 Live Demo
 
-### How to run it on your own machine
+You can view and interact with the chatbot via the hosted app here:  
+[**Curious PM Assignment - Chatbot**](https://sridharcuriouspm.streamlit.app/)
 
-1. Install the requirements
+---
 
-   ```
-   only 2 requirements openai, streamlit
-   pip install openai
-   pip install streamlit
-   ```
+## 📋 Features
 
-2. Run the app
+- **Chatbot interface:** A sleek and simple interface to interact with GPT-3.5.
+- **Streamlit integration:** Uses Streamlit to easily build and deploy the application.
+- **AI-powered conversation:** Built using OpenAI’s GPT-3.5 for generating human-like responses.
 
-   ```
-    python -m streamlit run app.py
+---
 
-   ```
-# Curious_PM_Assignment
+## 🛠️ Setup Instructions
 
-3. Properly functioning API-Key required of ChatGPT 3.5
+To run this chatbot locally on your machine, follow these steps:
+
+### 1. Install the required packages
+
+```bash
+pip install openai
+pip install streamlit
+```
+### 2. Run the application
+```bash
+python -m streamlit run app.py
+```
+### 3. API Key
+To use the GPT-3.5 API, ensure that you have a valid API key from OpenAI. Set the API key as an environment variable or configure it directly in the code.
