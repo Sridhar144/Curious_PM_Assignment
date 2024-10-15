@@ -1,2 +1,8 @@
-openai
-streamlit
+streamlit==1.26.0
+openai==0.28.0
+google-cloud-speech==2.20.0
+google-cloud-texttospeech==2.16.0
+moviepy==1.0.3
+pydub==0.25.1
+ffmpeg-python==0.2.0
+azure-cognitiveservices-speech
