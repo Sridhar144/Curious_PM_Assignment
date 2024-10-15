@@ -35,9 +35,7 @@ python -m streamlit run app.py
 ```
 ### 3. API Key
 To use the GPT-4o API, ensure that you have a valid API key from OpenAI. Set the API key as an environment variable or configure it directly in the code.
-<<<<<<< HEAD
 
 ### NOTE: THE HOSTED APP IS JUST A SAMPLE APP WHICH RUNS PARTIALLY, AS GOOGLE CLOUD DETAILS ARE REQUIRED THE MAIN APP THAT IS TO BE RUN IS THE APP2.PY WITH THE ACTUAL WORKING CREDENTIALS AND MORE SO THAT RUNS PROPERLY GIVEN THE RIGHT CREDENTIALS.
-=======
->>>>>>> 51f644813ef407c91a3145b178d8ea1839dd2c51
+
 
