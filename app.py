@@ -164,7 +164,7 @@ def main():
     col1, col2 = st.columns([1, 2])
 
     with col1:
-        st.header("Upload and Preview")
+        st.header("Upload your video file for video adjustment, audio separation and AI voice generation and Preview the magic!")
         video_file = st.file_uploader("Upload a video file", type=["mp4", "mov", "avi"])
         serial_number = len(os.listdir(input_dir)) + 1
 
