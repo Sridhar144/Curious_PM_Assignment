@@ -67,6 +67,16 @@ import requests
 import moviepy.editor as mp
 from gtts import gTTS
 import whisper
+import os
+import subprocess
+
+def check_ffmpeg():
+    try:
+        ffmpeg_path = subprocess.check_output(['which', 'ffmpeg']).decode('utf-8').strip()
+        st.write(f"ffmpeg is installed at: {ffmpeg_path}")
+    except subprocess.CalledProcessError:
+        st.write("ffmpeg is not installed or not found.")
+
 
 def ensure_directory(directory):
     if not os.path.exists(directory):
@@ -75,7 +85,9 @@ def ensure_directory(directory):
 def main():
 
     st.set_page_config(layout="wide")
-    st.title("Welcome to my work")
+    st.subheader("Checking ffmpeg Installation:")
+    check_ffmpeg()
+    st.title("Welcome to Sridhar's work")
     st.title("💬 Chatbot")
     st.markdown(
         """
