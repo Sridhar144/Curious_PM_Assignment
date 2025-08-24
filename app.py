@@ -86,7 +86,7 @@ def main():
 
     st.set_page_config(layout="wide")
     st.subheader("Checking ffmpeg Installation:")
-    check_ffmpeg()
+    # check_ffmpeg()
     st.title("Welcome to Sridhar's work")
     st.title("💬 Chatbot")
     st.markdown(
